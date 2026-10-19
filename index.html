@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch The Coins Pages</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #1b3d6c radial-gradient(circle at 30% 30%, #4a8ac2 0%, #1b3d6c 70%, #0d1e37 100%) no-repeat;
+            background-size: cover;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 24px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 2px 4px rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .aero-btn {
+            display: inline-block;
+            padding: 9px 24px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #ffffff;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+            text-decoration: none;
+            border-radius: 4px;
+            border: 1px solid #2b618a;
+            background: linear-gradient(to bottom, #72b1e4 0%, #3e88c7 49%, #1d6cb5 50%, #2083d1 100%);
+            box-shadow: 
+                inset 0 1px 0 rgba(255, 255, 255, 0.7),
+                inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+                0 2px 5px rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+            transition: background 0.1s ease, border-color 0.1s ease, box-shadow 0.1s ease;
+            text-align: center;
+        }
+
+        .aero-btn:hover {
+            border-color: #1f4a6b;
+            background: linear-gradient(to bottom, #8ac2ef 0%, #529bd8 49%, #2779c7 50%, #2d93e3 100%);
+            box-shadow: 
+                inset 0 1px 0 #ffffff,
+                0 0 10px rgba(50, 140, 220, 0.9);
+        }
+
+        .aero-btn:active {
+            transition: none !important;
+            background: linear-gradient(to bottom, #2b6da3 0%, #1a5688 49%, #12436f 50%, #18598f 100%);
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+        }
+
+        .aero-btn.halloween {
+            border-color: #8a4118;
+            background: linear-gradient(to bottom, #f29a52 0%, #e87323 49%, #cb5202 50%, #de610c 100%);
+        }
+
+        .aero-btn.halloween:hover {
+            border-color: #612807;
+            background: linear-gradient(to bottom, #fcae6d 0%, #f28538 49%, #de5f0d 50%, #ed701a 100%);
+            box-shadow: 
+                inset 0 1px 0 #ffffff,
+                0 0 10px rgba(220, 100, 30, 0.9);
+        }
+
+        .aero-btn.halloween:active {
+            transition: none !important;
+            background: linear-gradient(to bottom, #aa4303 0%, #8c3200 49%, #6e2700 50%, #823000 100%);
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catch The Coins and Catch The Coins Halloween Pages</h1>
+
+    <div class="buttons-container">
+        <a href="https://danywka.github.io/Catch-The-Coins-Privacy-Policy/" target="_blank" class="aero-btn">
+            Privacy Policy
+        </a>
+        <a href="https://danywka.github.io/Catch-The-Coins-Terms-Of-Service/" target="_blank" class="aero-btn">
+            Terms Of Service
+        </a>
+        <a href="https://danywka.github.io/Catch-The-Coins-For-Developers/" target="_blank" class="aero-btn">
+            For Developers
+        </a>
+        <a href="https://danywka.github.io/Catch-The-Coins-FAQ/" target="_blank" class="aero-btn">
+            FAQ
+        </a>
+        <a href="https://danywka.github.io/Catch-The-Coins-Email-Us/" target="_blank" class="aero-btn">
+            Email Us
+        </a>
+        <a href="https://danywka.github.io/Catch-The-Coins-About-Catch-The-Coins-Halloween/" target="_blank" class="aero-btn halloween">
+            About Catch The Coins Halloween 🎃
+        </a>
+    </div>
+
+</body>
+</html>
